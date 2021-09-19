@@ -1,0 +1,164 @@
+@charset "UTF-8";
+* {
+  font-family: 'Museo Sans Cyrl', sans-serif;
+}
+
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.promo {
+  min-height: 650px;
+  padding: 21px 0 93px 0;
+  background: url(../img/bg.jpg) center center/cover no-repeat;
+}
+
+.promo__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-top: 90px;
+}
+
+.promo__header {
+  font-weight: 700;
+  font-size: 42px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.promo__subheader {
+  font-weight: 500;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.promo__icons {
+  margin-top: 60px;
+  width: 424px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.promo__icon {
+  width: 133px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.promo__icon img {
+  display: block;
+  margin: 0 auto;
+  /* выравнивание по центру */
+  margin-bottom: 20px;
+}
+
+.promo__link {
+  margin-top: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.promo__link a {
+  color: #FFFFFF;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* выравнивание всех элементов */
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  /* выравнивание по всему пространству */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__logo {
+  width: 251px;
+}
+
+.header__logo img {
+  width: 100%;
+}
+
+.header__official {
+  font-weight: 500;
+  font-size: 12px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.header__official span {
+  display: block;
+  /* выравнивание */
+  font-size: 18px;
+}
+
+.header__phone {
+  display: block;
+  /* выравнивание */
+  font-weight: 700;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.header__phone:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header__contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  /* для расположения элементов во флексовую структуру*/
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  /* для расположения элементов по центру*/
+}
+
+.button {
+  width: 153px;
+  height: 32px;
+  background: #C70101;
+  border-radius: 5px;
+  border: none;
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.button_main {
+  margin-top: 65px;
+  width: 300px;
+  height: 50px;
+  font-size: 16px;
+}

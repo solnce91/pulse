@@ -1,0 +1,36 @@
+.header {
+    display: flex; /* выравнивание всех элементов */
+    justify-content: space-between; /* выравнивание по всему пространству */
+    align-items: center;
+    &__logo{
+        width: 251px;
+        img {
+            width: 100%;
+        }
+    }
+    &__official {
+        font-weight: 500;
+        font-size: 12px;
+        color: #FFFFFF;
+        text-align: center;
+        span{
+            display: block; /* выравнивание */
+            font-size: 18px;
+        }
+    }
+    &__phone {
+        display: block; /* выравнивание */
+        font-weight: 700;
+        font-size: 18px;
+        color: #FFFFFF;
+        &:hover {
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+    &__contacts {
+        display: flex;
+        flex-direction: column; /* для расположения элементов во флексовую структуру*/
+        align-items: flex-end; /* для расположения элементов по центру*/
+    }
+}
