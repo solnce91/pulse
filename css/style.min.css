@@ -162,3 +162,63 @@
   height: 50px;
   font-size: 16px;
 }
+
+.advant {
+  min-height: 473px;
+  padding: 70px 0 65px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.advant__header {
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #0D0D0D;
+}
+
+.advant__icons {
+  margin-top: 60px;
+  width: 952px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.advant__icon {
+  width: 274px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 14px;
+  color: #0D0D0D;
+}
+
+.advant__icon img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+
+.advant__icon h3 {
+  font-weight: 700;
+  font-size: 18px;
+  color: #0D0D0D;
+}
+
+.advant__icon span {
+  font-weight: 300;
+  font-size: 14px;
+  text-decoration: underline;
+  color: #C70101;
+}
