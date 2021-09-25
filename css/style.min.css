@@ -254,6 +254,17 @@
   color: #FFFFFF;
 }
 
+.consultation .error {
+  border: 1px solid #C70101;
+}
+
+.consultation label.error {
+  border: none;
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+}
+
 .feed-form {
   margin-top: 36px;
   display: -webkit-box;
@@ -709,6 +720,17 @@
 
 .modal_mini {
   min-height: 143px;
+}
+
+.modal .error {
+  border: 1px solid #C70101;
+}
+
+.modal label.error {
+  border: none;
+  text-align: center;
+  font-size: 12px;
+  color: #C70101;
 }
 
 #consultation, #order, #thanks {
