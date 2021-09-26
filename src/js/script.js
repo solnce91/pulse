@@ -88,5 +88,20 @@ $(document).ready(function(){
       });
       return false;
     });
+
+    //smooth scroll and pageup
+
+    $(window).scroll(function() { //установка стрелки вверх для прокрутки сайта
+      if ($(this).scrollTop() > 1600) {
+        $('.pageup').fadeIn();
+      } else {
+        $('.pageup').fadeOut();
+      }
+    });
+    $("a[href^='#']").click(function() { //плавная прокрутка по ссылкам
+      const _href = $(this).attr("href");
+      $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+      return false;
+    });
 });
   
